@@ -1,11 +1,11 @@
 import SpacerHeader from "./components/SpacerHeader";
 import { CardContainer, CardLeftSide, CardRightSide } from "./components/CardContainer";
-import "./stylesheets/styles.scss";
+import Container from "./components/Container";
 import Button from "./components/Button";
 
 function App() {
     return (
-        <div className="container">
+        <Container>
             <CardContainer>
                 <>
                     <CardLeftSide>
@@ -36,7 +36,7 @@ function App() {
                     </CardRightSide>
                 </>
             </CardContainer>
-        </div>
+        </Container>
     );
 }
 
