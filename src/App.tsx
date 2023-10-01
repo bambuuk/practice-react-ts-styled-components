@@ -1,6 +1,7 @@
 import SpacerHeader from "./components/SpacerHeader";
 import { CardContainer, CardLeftSide, CardRightSide } from "./components/CardContainer";
 import "./stylesheets/styles.scss";
+import Button from "./components/Button";
 
 function App() {
     return (
@@ -30,9 +31,7 @@ function App() {
                                 </div>
                             </div>
 
-                            <div className="button-container">
-                                <button>Add to cart</button>
-                            </div>
+                            <Button text='Add to cart' disabled />
                         </>
                     </CardRightSide>
                 </>
