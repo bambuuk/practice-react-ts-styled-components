@@ -2,7 +2,7 @@ import SpacerHeader from "./components/SpacerHeader";
 import { CardContainer, CardLeftSide, CardRightSide } from "./components/CardContainer";
 import Container from "./components/Container";
 import Button from "./components/Button";
-import parfume from './assets/chanel_perfume.png';
+import perfume from './assets/chanel_perfume.png';
 
 function App() {
     return (
@@ -10,7 +10,7 @@ function App() {
             <CardContainer>
                 <>
                     <CardLeftSide>
-                        <img src={parfume} alt="plants and perfume" />
+                        <img src={perfume} alt="plants and perfume" />
                     </CardLeftSide>
                     <CardRightSide>
                         <>
